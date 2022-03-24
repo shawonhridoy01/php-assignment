@@ -11,9 +11,9 @@ $monitor_brand="hp"; //data type string
 $monitor_condition= "used"; //data type string
 $monitor_quantity= 3; //data type decimal
 $monitor_display_size=15.6; //data type float/double
-$is_vga_included = true;//data type boolean
-$price_of_price=8000; // data type decimal 
-
+$is_vga_included = true; //data type boolean
+$price_of_price=8000;  // data type decimal 
 
 ?>
+
 
