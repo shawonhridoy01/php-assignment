@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/* ======================================================= */
+/* global css */
+/* ======================================================= */
+body{
+    font-family: 'Lato', sans-serif;
+}
+img{
+    width: 40%;
+}
+
+
+/* ======================================================= */
+/* custom css */
+/* ======================================================= */
+
+.container{
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    padding: 70px;
+    margin-top: 70px;
+}
+
+.left-side h5{
+    color: black;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 15px;
+
+}
+.left-side button{
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 24px;
+    border-radius: 30px;
+
+
+}
+.left-side a{
+    text-decoration: none;
+    color: black;
+}
+.right-column{
+    background-color: rgb(243, 237, 237);
+    padding: 40px;
+}
+.right-column .form-control{
+    margin-bottom: 25px !important;
+    padding: 10px ;
+    border: 2px solid  rgb(230, 224, 224);
+}
+.right-column .form-control:focus{
+    outline: none;
+    box-shadow: none;
+
+}
+.right-column .submit{
+    
+    padding: 9px 45px;
+    background-color: black;
+    border: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+.right-column .submit:hover{
+    background: transparent;
+    color: black;
+}
+.right-column .submit:focus{
+    outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,44 @@
+category
+	tech
+	education
+	weather
+	medical
+	health
+	sports
+
+
+
+db design
+	
+	mynews
+	
+	category         from             db
+		id           num              int                  
+		fields       text required    varchar  not null                     
+
+	news
+		id           num              int  
+		title        text             varchar 
+		icon         text             varchar 
+		desc         textarea         text
+		pass         pass             varchar
+	  ##cpass        pass             varchar
+		c_id         num              int
+
+
+create table category(
+	id  int(100) PRIMARY KEY AUTO_INCREMENT,
+    fields varchar(255) NOT null 
+)
+
+
+CREATE TABLE news(
+    id int(100) PRIMARY KEY AUTO_INCREMENT,
+    title varchar(255) NOT null,
+    icon varchar(255) NOT null,
+    description text(3000) NOT null,
+    pass varchar(255) NOT null,
+    c_id int(100) NOT null,
+    FOREIGN KEY(c_id) REFERENCES category(id) 
+)
+

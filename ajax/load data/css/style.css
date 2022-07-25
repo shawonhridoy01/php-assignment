@@ -1,0 +1,21 @@
+.row{
+    background-color: red;
+    text-align: center;
+}
+
+.second-row{
+    background-color: black;
+    margin-top: 30px;
+    color: wheat;
+}
+table{
+    border: 2px solid white;
+}
+table tr,th{
+    border: 2px solid white;
+    margin: 20px 0;
+}
+table td{
+    border: 2px solid white;
+    
+}
